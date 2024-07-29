@@ -1,0 +1,19 @@
+function dxb=odefun_q3_1(t,xb)%隔离法
+V=(4866+2433)/1025; 
+V1=1/3*pi*0.8; 
+x0=-(V-V1)/pi+1.4;
+z0=0.5-2433*9.8/80000;
+mx=4866;r=1;mz=2433;ro=1025;g=9.8;k=80000;l0=0.5;kr=250000;kh=8890.7;
+w=1.7152;M=1028.876;Jf=7001.914;etax=683.4558;kx=654.3383;f=3640;L=1690;
+etap=10000;etar=1000;J0=5231.83;
+dxb=zeros(8,1);
+%xb(1)=x;xb(2)=beta;xb(3)=z;xb(4)=alpha;xb(5)=vx;xb(6)=vbeta;xb(7)=vz;xb(8)=valpha;
+dxb(1)=xb(5);
+dxb(2)=xb(6);
+dxb(3)=xb(7);
+dxb(4)=xb(8);
+dxb(5)=(mz*g+ro*g*pi*r^2*(x0-xb(1)/cos(xb(2)))+f*cos(w*t)-etax*xb(5)+etap*xb(7)*cos(xb(2)+xb(4))-k*(l0-xb(3))*cos(xb(4)+xb(2)))./(mx+M);
+dxb(6)=(L*cos(w*t)-kx*xb(6)-kh*xb(2)+kr*xb(4)+etar*xb(8))./(J0+Jf);
+dxb(7)=(k*(l0-xb(3))-etap*xb(7)-cos(xb(4)+xb(2))*mz*g)./mz-cos(xb(4)+xb(2))*dxb(5)+sin(xb(4))*1.4*dxb(6);
+dxb(8)=(-kr*xb(4)-etar*xb(8)+sin(xb(4)+xb(2))*mz*g*xb(3))./(mz*xb(3)*xb(3))-sin(xb(4)+xb(2))*dxb(5)-cos(xb(4))*1.4*dxb(6);
+end

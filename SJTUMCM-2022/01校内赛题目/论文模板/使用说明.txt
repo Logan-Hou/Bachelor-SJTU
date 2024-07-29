@@ -1,0 +1,5 @@
+论文LaTeX模板需使用xelatex编译，建议团队使用
+
+https://www.overleaf.com/ 或
+https://latex.sjtu.edu.cn/
+进行团队协作。

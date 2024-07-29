@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Our Work}{3}{}%
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{3}{}%
+\contentsline {section}{\numberline {3}Problem I: Number Prediction and Attribute Analysis }{4}{}%
+\contentsline {subsection}{\numberline {3.1}Time Series Forecasting Model}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Data Cleaning}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Model Building}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}Results and Analysis}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Linear Fit Analysis Model}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Model Building}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Results and Analysis}{7}{}%
+\contentsline {section}{\numberline {4}Problem II: Score Distribution Prediction}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Model Building}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Regression Tree Model}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Boosting Model}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Results and Analysis}{9}{}%
+\contentsline {section}{\numberline {5}Problem III: Vocabulary Difficulty Classification}{10}{}%
+\contentsline {subsection}{\numberline {5.1}Model Building}{10}{}%
+\contentsline {subsection}{\numberline {5.2}Results and Analysis}{11}{}%
+\contentsline {section}{\numberline {6}Problem IV: Interesting Features of the Data Set}{12}{}%
+\contentsline {subsection}{\numberline {6.1}Dare to Challenge}{12}{}%
+\contentsline {subsection}{\numberline {6.2}Common not Always Right}{12}{}%
+\contentsline {subsection}{\numberline {6.3}Where the Vowel Letters are }{13}{}%
+\contentsline {section}{\numberline {7}Model Evaluation and Further Discussion}{13}{}%
+\contentsline {subsection}{\numberline {7.1}Strengths}{13}{}%
+\contentsline {subsection}{\numberline {7.2}Weaknesses}{14}{}%
+\contentsline {subsection}{\numberline {7.3}Further Discussion}{14}{}%
+\contentsline {section}{\numberline {8}The Letter to the Puzzle Editor of the New York Times}{15}{}%
+\contentsline {section}{\numberline {9}Appendices}{17}{}%
+\contentsline {subsection}{\numberline {9.1}The usage frequency table of letters we made}{17}{}%
+\contentsline {subsection}{\numberline {9.2}Problem 1 related codes}{17}{}%
+\contentsline {subsection}{\numberline {9.3}Problem 2 related codes}{19}{}%
+\contentsline {subsection}{\numberline {9.4}Problem 3 related codes}{20}{}%
