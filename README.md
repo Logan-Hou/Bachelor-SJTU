@@ -8,6 +8,5 @@ Here are my MCM projects I participated in during my undergraduate years in SJTU
 - SJTUMCM-2022: Composite Spectral Peak Splitting Model Based on Least Squares Fitting
 - SJTUMCM-2023: Research on Chronic Disease-Related Factors Based on Classification Models
 
-The PDF files of project articles have been listed for a brief understanding of my work. 
-
+The PDF files of project articles have been listed for a brief understanding of my work. \\
 More detailed codes and data can be found in the correspondingly named folders.
